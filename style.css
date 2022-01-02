@@ -1,0 +1,119 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+body { font-family: "Work Sans", sans-serif;}
+#header_top { width: 100%; float: left; text-align: center; background: rgb(232, 235, 241); top: 0px;position: fixed;}
+.container { width: 90%; margin: 0px auto; }
+.logo { width: 30%; float: left; padding: 20px 0px; text-align: left; }
+.logo a { }
+.manu_top { width: 70%; float: left; text-align: center; padding: 30px; }
+.manu_top ul { list-style: none; }
+.manu_top li { display: inline-block; }
+.manu_top a { margin: 20px; text-decoration: none; text-transform: uppercase; font-size: 16px; font-weight: 700; color: black; transition: all 0.5s cubic-bezier(0.25, 0.57, 0.58, 1) 0s; }
+.manu_top a:hover { font-size: 14px; color: rgb(119, 157, 179); font-weight: 700; border-top: 5px solid #2AACC8;padding-top:10px}
+#main_hero { width: 100%; float: left; background: rgb(129, 228, 237); }
+.hero_content_area { width: 100%; float: left; background: url("image/hero-right.png") center center / cover no-repeat; padding: 32px; }
+.hero_contant { text-align: left; width: 30%; float: left; margin: 30px; }
+.hero_contant h1 { font-size: 57px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 2px; margin-top: 125px; }
+.hero_glash { width: 55%; float: left; text-align: left; }
+.hero_glash img { width: 366px; padding: 0px 25px; margin-left: 20px; }
+#content_hero_bottom { width: 100%; float: left; background: rgb(232, 235, 241); text-align: left; }
+.clean_thene { width: 25%; float: left; padding: 30px 0px; text-align: left; }
+.clean_thene p { margin: 29px 20px 0px 0px; line-height: 25px; letter-spacing: 1px; font-size: 14px; }
+.clean_div { width: 100%; float: left; text-align: center; }
+.clean_div i { width: 16%; float: left; background: rgb(42, 171, 199); color: rgb(255, 255, 255); text-align: center; padding: 16px; border-radius: 50%; }
+.clean_div h1 { width: 80%; float: left; margin-top: 10px; }
+.clean_div1 { width: 100%; float: left; text-align: center; }
+.clean_div1 p { text-align: left; font-size: 15px; }
+.clean_div1 a { }
+.clean_div2 .button_bottom:hover{text-decoration: underline;}
+.clean_div2 { width: 100%; float: left; text-align: center;}
+.button_bottom { width: 100%; text-align: left; padding: 20px 0px; border: none; outline: none; background: none; font-size: 25px; color: rgb(42, 172, 200);transition:1s ease-out; }
+.button_bottom i { margin-right: 11px; color: black; font-weight: bold; font-size: 14px;}
+#image_left { width: 100%; float: left; }
+.image_top { width: 100%; float: left; }
+.head { width: 50%; float: left; margin: 16px 0px; }
+.head img { width: 3%; float: left; margin-bottom: -4px; }
+.head h1 { width: 80%; float: left; text-align: left; margin-left: 47px; text-transform: uppercase; margin-top: 9px; }
+.right_fonts { width: 48%; float: left; text-align: end; margin-top: 20px; margin-right: 20px; }
+.right_fonts i { padding: 10px 16px; background: rgb(128, 227, 236); font-weight: 900; font-size: 21px; color: black; border-radius: 50%; }
+.image_bottom { border-top: 2px solid rgb(221, 221, 221); border-bottom: 2px solid rgb(221, 221, 221); width: 100%; float: left; }
+.image_div { width: 23%; float: left; text-align: left; padding: 24px 0px; margin-right: 32px; }
+.image_div img { width: 100%; }
+.image_bottom .image_div:last-child { margin-right: 0px; }
+#promo { width: 100%; float: left; margin: 30px 0px; }
+.testimonials { width: 50%; float: left; }
+.testimonials p { padding: 17px 101px 30px 0px; line-height: 37px; font-size: 14px; text-align: left; }
+p { }
+.testimonials h2 { font-size: 20px; margin-top: 30px; }
+.box1 { width: 50%; float: left; }
+.span1 { margin: 20px 0px; }
+.span1 img { width: 36px; float: left; margin-right: 20px; }
+.span1 span { font-size: 24px; line-height: 20px; display: block; font-weight: 700; }
+.span1 { }
+.box2 { width: 100%; float: left; text-align: end; margin: 17px 0px 0px; }
+.box2 img { width: 32%; height: 130px; background: url("image/pict_leare.png") center center / cover no-repeat; border: 1px solid rgb(221, 221, 221); }
+#download { width: 100%; float: left; background: rgb(232, 252, 254); }
+.contant_fast { width: 60%; float: left; }
+.contant_fast p { line-height: 30px; margin: 30px 0px; font-size: 16px; }
+.psd_download { width: 39%; float: left; text-align: end; margin-top: 40px; }
+.psd_download img { }
+#footer {width: 100%;float: left;background: #e8ebf1;}
+.aboutus_content { width: 100%; float: left; padding: 30px 0px; }
+.aboutus_lorem_text { width: 30%; float: left; }
+.aboutus_lorem_text h2 { }
+.aboutus_lorem_text p { line-height: 25px; padding: 20px 20px 30px 0px; }
+.Expoler { width: 12%; float: left; }
+.Expoler h2 { }
+.Expoler ul { list-style-type: none; padding: 5px; }
+.Expoler ul li { padding: 5px; }
+.Expoler ul li a {text-decoration: none;color: rgb(49, 47, 47);font-weight: 400;text-align: left;transition: 1s ease;cursor: pointer;}
+.Expoler ul li a:hover {font-size: 14px;color: rgb(187, 174, 174);font-weight: 900;}
+.browse { width: 15%; float: left; }
+.browse h2 { }
+.browse ul { list-style-type: none; padding: 5px; }
+.browse ul li { padding: 5px; }
+.browse ul li a {text-decoration: none;color: rgb(61, 60, 60);font-weight: 400;transition: 1s ease;cursor: pointer;}
+.browse ul li a:hover {font-size: 14px;color: rgb(201, 186, 186);font-weight: 900;}
+.content_us { width: 18%; float: left; line-height: 26px; }
+.content_us h2 {}
+.content_us h3 { }
+.content_us p { }
+.content_with_us { width: 25%; float: left; }
+.content_with_us img { width: 33%; float: left; }
+.bislite {width: 100%;float: left;padding: 30px 0px;}
+.footer_left_content {width: 65%;float: left;}
+.footer_left_content p {line-height: 25px;}
+.footer_right_logo {width: 35%;float: left;text-align: end;}
+.footer_right_logo img {}
+
+/* mobile device */
+@media(min-width:300px) and (max-width:600px){
+    #header_top{
+        background: rgb(255, 81, 0);
+    }
+    .logo { width: 30%; float: left; padding: 10px 0px; text-align: left; }
+    
+    .manu_top { width: 70%; float: left; text-align: center; padding: 10px; }
+    
+/* tevlet device */
+@media(min-width:601px) and (max-width:768px){
+    #header_top{
+        background: rgb(38, 0, 255);
+    }
+}
+/* landscape device */
+@media(min-width:769px) and (max-width:900px){
+    #header_top{
+        background: rgb(94, 255, 0);
+    }
+}
+/* leftop device */
+@media(min-width:901px) and (max-width:1200px){
+    #header_top{
+        background: rgb(183, 0, 255);
+    }
+}
+
+
+
+
+
